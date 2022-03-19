@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint": "eslint --max-warnings 0 --ext .ts,.tsx ."
+    "lint": "eslint . --max-warnings 0 --ext .ts,.tsx,.js",
+    "lint:fix": "eslint . --max-warnings 0 --ext .ts,.tsx,.js --fix"
   },
   "eslintConfig": {
     "extends": [
